@@ -1,0 +1,5 @@
+pip install pyodbc
+pip install unicodecsv
+pip install tqdm
+
+dbhunter.py -d "C:\Users\username\Desktop\Triage and DB Hunt\dbhunt_JT" -s 127.197.4.238 -db ECAT$PRIMARY -o C:\Users\username\Desktop\DBHuntOut" --debug
